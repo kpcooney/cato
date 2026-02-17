@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	}; 
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DF5F98E7874A64A97F4CFB /* CatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398CB9C70AE45E5BA705D5B /* CatoApp.swift */; };
+		8A8C31C4486A4E3594CDBA1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71697A7A2EA447C9AC8A2A25 /* ContentView.swift */; };
+		12354DEF7E474367A7BE5EA3 /* ActivityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF172825FC34205A63905F6 /* ActivityTarget.swift */; };
+		C5A1C26823794F38BFA8E980 /* CompletedActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EAF3D554446D9940ABC0C /* CompletedActivity.swift */; };
+		84916E244F9E40F4AE26AEAE /* CompletedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AFC3DF5A224763A8880D1B /* CompletedSet.swift */; };
+		CC50BBAB859342B8808E30E1 /* CompletedTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815626B008DE43DF8341B77F /* CompletedTarget.swift */; };
+		97D18841706B48C6949F867B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B820D26CEA4E7380DB27C7 /* Enums.swift */; };
+		487DC560B2CF4624B78A7441 /* ProgramActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30458159836A4154BCE93353 /* ProgramActivity.swift */; };
+		946A5A465EDD4C50B027BEE8 /* ProgramDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2604CAC3FBB34BFABE018F1D /* ProgramDay.swift */; };
+		934B4B906BEA4E3F9CF341BA /* ProgramWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70E0065AA14215874A180D /* ProgramWeek.swift */; };
+		D880495BE768440A9E3BB2C1 /* ProgressionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B9F8C9831F44EA9D08558F /* ProgressionEvent.swift */; };
+		0CD561C1D86C4D8A8E1BFA31 /* ProgressionRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DC165C66C40598024E051 /* ProgressionRule.swift */; };
+		B998D86831D34C49A67AA915 /* SessionHealthMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13BFCCA5764D2B8AEEEE71 /* SessionHealthMetrics.swift */; };
+		DDE2226603104597BE9DB87E /* WorkoutProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F81B5B648D49A1BE6C176B /* WorkoutProgram.swift */; };
+		9BD62091D7A8489A8B8E6017 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B400940ED14158AE5B0862 /* WorkoutSession.swift */; };
+		ED3D1073151E4D92B0B9923A /* CatoPersona.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B8B8363200456888496D18 /* CatoPersona.swift */; };
+		8E4D1A8A8B0B4B9FA3276168 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEF25698CC49EBAEFEED1C /* SettingsView.swift */; };
+		BD8B86928EEB42A0A47211E6 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A3CD9915B42CE91CED4CF /* SignInView.swift */; };
+		F0E07FADEDF041CCBA08DBFF /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F8AEB2B048434691C32565 /* TodayView.swift */; };
+		45A9F83DD9204A8D91AF3596 /* ProgramListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E7BB47A36F487D86995C5F /* ProgramListView.swift */; };
+		B39FA85F2C554324AD510DFB /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF101643AA4B0D8B8211FA /* HistoryListView.swift */; };
+		07D16D01287948FCB95415CA /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */; };
+		9D0F0E8B89F24789B101E6B5 /* CatoSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */; };
+		C2554F489B82474894D67537 /* ClaudeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */; };
+		D2C0C2420E294736A9E65BC5 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */; };
+		E127C6A814C64247AC32E7E4 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37EEA062A945E58954D5C5 /* HealthKitService.swift */; };
+		76CE5C5335714B57808B577A /* ProgressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8D26DDD03417D99A7BCCB /* ProgressionService.swift */; };
+		15FC7B0BF91C4A369A48F700 /* VoiceRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431096C44F245D782EB92F0 /* VoiceRecognitionService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0DD17B985FF4D60A9576DBC /* Cato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7398CB9C70AE45E5BA705D5B /* CatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatoApp.swift; sourceTree = "<group>"; };
+		71697A7A2EA447C9AC8A2A25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AF172825FC34205A63905F6 /* ActivityTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTarget.swift; sourceTree = "<group>"; };
+		0F8EAF3D554446D9940ABC0C /* CompletedActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedActivity.swift; sourceTree = "<group>"; };
+		71AFC3DF5A224763A8880D1B /* CompletedSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedSet.swift; sourceTree = "<group>"; };
+		815626B008DE43DF8341B77F /* CompletedTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTarget.swift; sourceTree = "<group>"; };
+		92B820D26CEA4E7380DB27C7 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		30458159836A4154BCE93353 /* ProgramActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramActivity.swift; sourceTree = "<group>"; };
+		2604CAC3FBB34BFABE018F1D /* ProgramDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDay.swift; sourceTree = "<group>"; };
+		3B70E0065AA14215874A180D /* ProgramWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramWeek.swift; sourceTree = "<group>"; };
+		40B9F8C9831F44EA9D08558F /* ProgressionEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionEvent.swift; sourceTree = "<group>"; };
+		264DC165C66C40598024E051 /* ProgressionRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionRule.swift; sourceTree = "<group>"; };
+		FE13BFCCA5764D2B8AEEEE71 /* SessionHealthMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHealthMetrics.swift; sourceTree = "<group>"; };
+		F6F81B5B648D49A1BE6C176B /* WorkoutProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutProgram.swift; sourceTree = "<group>"; };
+		90B400940ED14158AE5B0862 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		E6B8B8363200456888496D18 /* CatoPersona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatoPersona.swift; sourceTree = "<group>"; };
+		19CEF25698CC49EBAEFEED1C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		400A3CD9915B42CE91CED4CF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		29F8AEB2B048434691C32565 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		05E7BB47A36F487D86995C5F /* ProgramListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramListView.swift; sourceTree = "<group>"; };
+		6EDF101643AA4B0D8B8211FA /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatoSpeechService.swift; sourceTree = "<group>"; };
+		84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAPIService.swift; sourceTree = "<group>"; };
+		4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		3B37EEA062A945E58954D5C5 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		9CB8D26DDD03417D99A7BCCB /* ProgressionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionService.swift; sourceTree = "<group>"; };
+		8431096C44F245D782EB92F0 /* VoiceRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognitionService.swift; sourceTree = "<group>"; };
+		13AB0E2AFCF64FFAB3751D29 /* Cato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cato.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B762FD9C69435F9BFEFFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		}; 
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1241A3674A4CF09E53CF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0DD17B985FF4D60A9576DBC /* Cato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		}; 
+		5787E019BDD948D985A83A08 = {
+			isa = PBXGroup;
+			children = (
+				59F7CEEA1702440689CD04AF /* Cato */,
+				6E1241A3674A4CF09E53CF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		}; 
+		59F7CEEA1702440689CD04AF /* Cato */ = {
+			isa = PBXGroup;
+			children = (
+				E8F7407DBD3A4D54BBB44416 /* App */,
+				44F6790292BB4D9F9974D3B7 /* Models */,
+				01927212CC7A455790571278 /* Persona */,
+				5E095E42131F4C6C828BD249 /* Resources */,
+				0B6FF4DB5A704D9D894A3E8E /* Services */,
+				E930F0D395654551A0CEA7F1 /* Utilities */,
+				1D35188176934896BA2CC7EB /* ViewModels */,
+				F82E9BAECF93458C8010746C /* Views */,
+				13AB0E2AFCF64FFAB3751D29 /* Cato.entitlements */,
+			);
+			name = Cato;
+			path = Cato;
+			sourceTree = "<group>";
+		}; 
+		E8F7407DBD3A4D54BBB44416 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7398CB9C70AE45E5BA705D5B /* CatoApp.swift */,
+				71697A7A2EA447C9AC8A2A25 /* ContentView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		}; 
+		44F6790292BB4D9F9974D3B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AF172825FC34205A63905F6 /* ActivityTarget.swift */,
+				0F8EAF3D554446D9940ABC0C /* CompletedActivity.swift */,
+				71AFC3DF5A224763A8880D1B /* CompletedSet.swift */,
+				815626B008DE43DF8341B77F /* CompletedTarget.swift */,
+				92B820D26CEA4E7380DB27C7 /* Enums.swift */,
+				30458159836A4154BCE93353 /* ProgramActivity.swift */,
+				2604CAC3FBB34BFABE018F1D /* ProgramDay.swift */,
+				3B70E0065AA14215874A180D /* ProgramWeek.swift */,
+				40B9F8C9831F44EA9D08558F /* ProgressionEvent.swift */,
+				264DC165C66C40598024E051 /* ProgressionRule.swift */,
+				FE13BFCCA5764D2B8AEEEE71 /* SessionHealthMetrics.swift */,
+				F6F81B5B648D49A1BE6C176B /* WorkoutProgram.swift */,
+				90B400940ED14158AE5B0862 /* WorkoutSession.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		}; 
+		01927212CC7A455790571278 /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				E6B8B8363200456888496D18 /* CatoPersona.swift */,
+			);
+			name = Persona;
+			path = Persona;
+			sourceTree = "<group>";
+		}; 
+		5E095E42131F4C6C828BD249 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		}; 
+		0B6FF4DB5A704D9D894A3E8E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */,
+				56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */,
+				84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */,
+				4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */,
+				3B37EEA062A945E58954D5C5 /* HealthKitService.swift */,
+				9CB8D26DDD03417D99A7BCCB /* ProgressionService.swift */,
+				8431096C44F245D782EB92F0 /* VoiceRecognitionService.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		}; 
+		E930F0D395654551A0CEA7F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8F9CE31D70FB44E99D869C39 /* Extensions */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		}; 
+		8F9CE31D70FB44E99D869C39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		}; 
+		1D35188176934896BA2CC7EB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		}; 
+		F82E9BAECF93458C8010746C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2493CC72074D47549F204642 /* History */,
+				4DE63FAB743342AEB2C4AF20 /* Programs */,
+				395A06B0B2694AED93BB881A /* Session */,
+				BE2D79F8527643DAA8A8E153 /* Settings */,
+				C51688342FF849A9A7158C6B /* Today */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		}; 
+		2493CC72074D47549F204642 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				6EDF101643AA4B0D8B8211FA /* HistoryListView.swift */,
+			);
+			name = History;
+			path = History;
+			sourceTree = "<group>";
+		}; 
+		4DE63FAB743342AEB2C4AF20 /* Programs */ = {
+			isa = PBXGroup;
+			children = (
+				05E7BB47A36F487D86995C5F /* ProgramListView.swift */,
+			);
+			name = Programs;
+			path = Programs;
+			sourceTree = "<group>";
+		}; 
+		395A06B0B2694AED93BB881A /* Session */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Session;
+			path = Session;
+			sourceTree = "<group>";
+		}; 
+		BE2D79F8527643DAA8A8E153 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				19CEF25698CC49EBAEFEED1C /* SettingsView.swift */,
+				400A3CD9915B42CE91CED4CF /* SignInView.swift */,
+			);
+			name = Settings;
+			path = Settings;
+			sourceTree = "<group>";
+		}; 
+		C51688342FF849A9A7158C6B /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				29F8AEB2B048434691C32565 /* TodayView.swift */,
+			);
+			name = Today;
+			path = Today;
+			sourceTree = "<group>";
+		}; 
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADD051DA0F64270BCFD45C9 /* Cato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E4398C14A4409E9E222F67 /* Build configuration list for PBXNativeTarget "Cato" */;
+			buildPhases = (
+				0772290F68374704836A259A /* Sources */,
+				48B762FD9C69435F9BFEFFBE /* Frameworks */,
+				2172BE83745F43519139120A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cato;
+			productName = Cato;
+			productReference = E0DD17B985FF4D60A9576DBC /* Cato.app */;
+			productType = "com.apple.product-type.application";
+		}; 
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F7202C80FE41879B624DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3ADD051DA0F64270BCFD45C9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				}; 
+			};
+			buildConfigurationList = 7487E62C50D7423E95AD533A /* Build configuration list for PBXProject "Cato" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5787E019BDD948D985A83A08;
+			productRefGroup = 6E1241A3674A4CF09E53CF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADD051DA0F64270BCFD45C9 /* Cato */,
+			);
+		}; 
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2172BE83745F43519139120A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		}; 
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0772290F68374704836A259A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF5F98E7874A64A97F4CFB /* CatoApp.swift in Sources */,
+				8A8C31C4486A4E3594CDBA1E /* ContentView.swift in Sources */,
+				12354DEF7E474367A7BE5EA3 /* ActivityTarget.swift in Sources */,
+				C5A1C26823794F38BFA8E980 /* CompletedActivity.swift in Sources */,
+				84916E244F9E40F4AE26AEAE /* CompletedSet.swift in Sources */,
+				CC50BBAB859342B8808E30E1 /* CompletedTarget.swift in Sources */,
+				97D18841706B48C6949F867B /* Enums.swift in Sources */,
+				487DC560B2CF4624B78A7441 /* ProgramActivity.swift in Sources */,
+				946A5A465EDD4C50B027BEE8 /* ProgramDay.swift in Sources */,
+				934B4B906BEA4E3F9CF341BA /* ProgramWeek.swift in Sources */,
+				D880495BE768440A9E3BB2C1 /* ProgressionEvent.swift in Sources */,
+				0CD561C1D86C4D8A8E1BFA31 /* ProgressionRule.swift in Sources */,
+				B998D86831D34C49A67AA915 /* SessionHealthMetrics.swift in Sources */,
+				DDE2226603104597BE9DB87E /* WorkoutProgram.swift in Sources */,
+				9BD62091D7A8489A8B8E6017 /* WorkoutSession.swift in Sources */,
+				ED3D1073151E4D92B0B9923A /* CatoPersona.swift in Sources */,
+				8E4D1A8A8B0B4B9FA3276168 /* SettingsView.swift in Sources */,
+				BD8B86928EEB42A0A47211E6 /* SignInView.swift in Sources */,
+				F0E07FADEDF041CCBA08DBFF /* TodayView.swift in Sources */,
+				45A9F83DD9204A8D91AF3596 /* ProgramListView.swift in Sources */,
+				B39FA85F2C554324AD510DFB /* HistoryListView.swift in Sources */,
+				07D16D01287948FCB95415CA /* AuthenticationService.swift in Sources */,
+				9D0F0E8B89F24789B101E6B5 /* CatoSpeechService.swift in Sources */,
+				C2554F489B82474894D67537 /* ClaudeAPIService.swift in Sources */,
+				D2C0C2420E294736A9E65BC5 /* CloudKitService.swift in Sources */,
+				E127C6A814C64247AC32E7E4 /* HealthKitService.swift in Sources */,
+				76CE5C5335714B57808B577A /* ProgressionService.swift in Sources */,
+				15FC7B0BF91C4A369A48F700 /* VoiceRecognitionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		}; 
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBDBD87431D24FD7B502F16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			}; 
+			name = Debug;
+		}; 
+		91F431C271F945E590066873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			}; 
+			name = Release;
+		}; 
+		2E9E95BF712A44D6BB266000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cato/Cato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cato.trainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			}; 
+			name = Debug;
+		}; 
+		D1E771DD256545859DFD8125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cato/Cato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cato.trainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			}; 
+			name = Release;
+		}; 
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7487E62C50D7423E95AD533A /* Build configuration list for PBXProject "Cato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDBD87431D24FD7B502F16D /* Debug */,
+				91F431C271F945E590066873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		}; 
+		61E4398C14A4409E9E222F67 /* Build configuration list for PBXNativeTarget "Cato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9E95BF712A44D6BB266000 /* Debug */,
+				D1E771DD256545859DFD8125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		}; 
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E9F7202C80FE41879B624DE2 /* Project object */;
+}
