@@ -38,12 +38,61 @@ Cato is a native iOS personal trainer app. Users create workout programs using n
 # Build
 xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 15 Pro' build
 
-# Test
-xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 15 Pro' test
+# Test — run this after every non-trivial change
+xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.2' test
 
 # Clean
 xcodebuild -scheme Cato clean
 ```
+
+---
+
+## Testing
+
+**Tests are mandatory.** Every new feature, bug fix, and service implementation must include tests. Tests live in `CatoTests/` and use Swift Testing (`import Testing`).
+
+### Test target: `CatoTests`
+- Hosted unit tests (run inside the Cato app process)
+- Uses `@testable import Cato` for access to internal types
+- Use Swift Testing (`@Test`, `@Suite`, `#expect`) — not XCTest
+
+### What to test
+| Layer | What to test |
+|-------|-------------|
+| `CatoPersona` | Every voice line format, persona rules (no emoji, no gendered language) |
+| Models | Property defaults, enum raw values, relationship setup |
+| Services | Business logic — test via protocols/mocks, never test stubs |
+| ViewModels | State transitions, computed properties |
+| Utilities | Pure functions: `WeightRounding`, `ExerciseDatabase` search |
+
+### SwiftData testing rules
+`@Model` objects in hosted unit tests have constraints. Follow these patterns:
+
+**Do:** Test object properties before or after construction without inserting into a test context.
+```swift
+// GOOD — test model properties directly
+let program = WorkoutProgram(name: "Test", programType: .strength, sourceType: .manual)
+#expect(program.name == "Test")
+#expect(program.isActive == false)
+```
+
+**Do:** Test business logic that operates on arrays of model objects without persistence.
+```swift
+// GOOD — test active-program toggle logic
+let programs = [programA, programB]
+programA.isActive = false; programB.isActive = true
+#expect(programs.filter { $0.isActive }.count == 1)
+```
+
+**Avoid:** Inserting `@Model` objects into a `ModelContext` in hosted tests and then fetching — the test process already has a live `ModelContainer` from the app, which causes conflicts with a separate test container.
+
+### Suite conventions
+- Use `@Suite("Name") @MainActor struct` for suites that touch `@Model` objects.
+- Add `.serialized` trait to suites that share state or use `ModelContext`.
+- Group tests by the type they exercise, not by phase.
+
+### Running tests
+Tests must pass before merging any code. If tests fail, fix the code — do not skip or remove tests.
 
 ---
 
