@@ -30,7 +30,6 @@
 		B39FA85F2C554324AD510DFB /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF101643AA4B0D8B8211FA /* HistoryListView.swift */; };
 		07D16D01287948FCB95415CA /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */; };
 		9D0F0E8B89F24789B101E6B5 /* CatoSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */; };
-		C2554F489B82474894D67537 /* ClaudeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */; };
 		D2C0C2420E294736A9E65BC5 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */; };
 		E127C6A814C64247AC32E7E4 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37EEA062A945E58954D5C5 /* HealthKitService.swift */; };
 		76CE5C5335714B57808B577A /* ProgressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8D26DDD03417D99A7BCCB /* ProgressionService.swift */; };
@@ -50,6 +49,7 @@
 		7C8EA023B93D904CDEA5CA9A /* ExerciseDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */; };
 		1C83E422C5F3660CA0B25E76 /* DraftModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */; };
 		DD700CE559029CB899B1BD06 /* ProgramViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */; };
+		F0E1D2C3B4A596780FEDCBA9 /* WorkoutParsingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F647890ABCDE01 /* WorkoutParsingServiceTests.swift */; };
 		E39AE002571621D426D25514 /* ExerciseSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1001307DC22C70893D868F06 /* ExerciseSearchView.swift */; };
 		492866031A4C72889F3F28A5 /* ActivityEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2AA43B75F148FBBD5C9091 /* ActivityEditorView.swift */; };
 		5F40C68579A898CFD935BAC0 /* DayEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C052246C81F97B97B14C82 /* DayEditorView.swift */; };
@@ -80,7 +80,6 @@
 		6EDF101643AA4B0D8B8211FA /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 		B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatoSpeechService.swift; sourceTree = "<group>"; };
-		84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAPIService.swift; sourceTree = "<group>"; };
 		4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
 		3B37EEA062A945E58954D5C5 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
 		9CB8D26DDD03417D99A7BCCB /* ProgressionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionService.swift; sourceTree = "<group>"; };
@@ -102,6 +101,7 @@
 		66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabaseTests.swift; sourceTree = "<group>"; };
 		3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftModelTests.swift; sourceTree = "<group>"; };
 		00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewModelTests.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F647890ABCDE01 /* WorkoutParsingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutParsingServiceTests.swift; sourceTree = "<group>"; };
 		1001307DC22C70893D868F06 /* ExerciseSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSearchView.swift; sourceTree = "<group>"; };
 		8D2AA43B75F148FBBD5C9091 /* ActivityEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEditorView.swift; sourceTree = "<group>"; };
 		02C052246C81F97B97B14C82 /* DayEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEditorView.swift; sourceTree = "<group>"; };
@@ -168,6 +168,7 @@
 				66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */,
 				3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */,
 				00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */,
+				A1B2C3D4E5F647890ABCDE01 /* WorkoutParsingServiceTests.swift */,
 			);
 			name = CatoTests;
 			path = CatoTests;
@@ -228,7 +229,6 @@
 			children = (
 				B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */,
 				56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */,
-				84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */,
 				429FEEAEE890419E70F8F80E /* FoundationModelsService.swift */,
 				4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */,
 				3B37EEA062A945E58954D5C5 /* HealthKitService.swift */,
@@ -453,7 +453,6 @@
 				B39FA85F2C554324AD510DFB /* HistoryListView.swift in Sources */,
 				07D16D01287948FCB95415CA /* AuthenticationService.swift in Sources */,
 				9D0F0E8B89F24789B101E6B5 /* CatoSpeechService.swift in Sources */,
-				C2554F489B82474894D67537 /* ClaudeAPIService.swift in Sources */,
 				D2C0C2420E294736A9E65BC5 /* CloudKitService.swift in Sources */,
 				E127C6A814C64247AC32E7E4 /* HealthKitService.swift in Sources */,
 				76CE5C5335714B57808B577A /* ProgressionService.swift in Sources */,
@@ -481,6 +480,7 @@
 				7C8EA023B93D904CDEA5CA9A /* ExerciseDatabaseTests.swift in Sources */,
 				1C83E422C5F3660CA0B25E76 /* DraftModelTests.swift in Sources */,
 				DD700CE559029CB899B1BD06 /* ProgramViewModelTests.swift in Sources */,
+				F0E1D2C3B4A596780FEDCBA9 /* WorkoutParsingServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
