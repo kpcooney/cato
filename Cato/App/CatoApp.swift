@@ -44,14 +44,27 @@ struct CatoApp: App {
             ProgressionEvent.self
         ])
 
-        let modelConfiguration = ModelConfiguration(
+        // Attempt CloudKit-backed storage; fall back to local-only if iCloud is unavailable
+        // (e.g., simulator without iCloud sign-in, or no network).
+        let cloudConfiguration = ModelConfiguration(
             schema: schema,
             isStoredInMemoryOnly: false,
             cloudKitDatabase: .private("iCloud.com.cato.trainer")
         )
 
+        if let container = try? ModelContainer(for: schema, configurations: [cloudConfiguration]) {
+            return container
+        }
+
+        // Fallback: local SQLite store, no CloudKit sync
+        let localConfiguration = ModelConfiguration(
+            schema: schema,
+            isStoredInMemoryOnly: false,
+            cloudKitDatabase: .none
+        )
+
         do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+            return try ModelContainer(for: schema, configurations: [localConfiguration])
         } catch {
             // SwiftData failing to create the container is unrecoverable — the app
             // cannot function without persistent storage. This should never fire in
