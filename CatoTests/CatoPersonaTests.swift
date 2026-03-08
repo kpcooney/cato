@@ -187,6 +187,26 @@ struct CatoPersonaTests {
         #expect(result == "Skipping Bench Press. Next: Overhead Press.")
     }
 
+    // MARK: - Program Management
+
+    @Test func programCreated_formatsCorrectly() {
+        let result = CatoPersona.programCreated(name: "Starting Strength")
+        #expect(result == "Starting Strength saved. Set it active when you're ready.")
+    }
+
+    @Test func programActivated_formatsCorrectly() {
+        let result = CatoPersona.programActivated(name: "5x5 Program")
+        #expect(result == "5x5 Program is now active. Let's get after it.")
+    }
+
+    @Test func noProgramActive_isCorrect() {
+        #expect(CatoPersona.noProgramActive() == "No program active. Set one up in the Programs tab.")
+    }
+
+    @Test func programParseError_isCorrect() {
+        #expect(CatoPersona.programParseError() == "Couldn't parse that. Try being more specific, or build it manually.")
+    }
+
     // MARK: - Persona Rules (no emojis, no gendered language)
 
     @Test func noVoiceLinesContainEmojis() {
@@ -206,6 +226,10 @@ struct CatoPersonaTests {
             CatoPersona.serverError(),
             CatoPersona.weightOverrideConfirmation(newWeight: 145.0, unit: "lbs"),
             CatoPersona.skipConfirmation(exercise: "Squat", nextExercise: "Deadlift"),
+            CatoPersona.programCreated(name: "Test Program"),
+            CatoPersona.programActivated(name: "Test Program"),
+            CatoPersona.noProgramActive(),
+            CatoPersona.programParseError(),
         ]
         for line in lines {
             // isEmojiPresentation catches actual rendered emoji (🎤 💪 etc)
@@ -227,6 +251,10 @@ struct CatoPersonaTests {
             CatoPersona.sessionComplete(minutes: 30, exerciseCount: 3, totalSets: 9),
             CatoPersona.trainingDayGreeting(dayName: "Test Day"),
             CatoPersona.restDayGreeting(),
+            CatoPersona.programCreated(name: "Test"),
+            CatoPersona.programActivated(name: "Test"),
+            CatoPersona.noProgramActive(),
+            CatoPersona.programParseError(),
         ]
         for line in lines {
             let lowercased = line.lowercased()
