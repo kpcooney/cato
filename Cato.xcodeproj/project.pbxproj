@@ -50,6 +50,9 @@
 		7C8EA023B93D904CDEA5CA9A /* ExerciseDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */; };
 		1C83E422C5F3660CA0B25E76 /* DraftModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */; };
 		DD700CE559029CB899B1BD06 /* ProgramViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */; };
+		E39AE002571621D426D25514 /* ExerciseSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1001307DC22C70893D868F06 /* ExerciseSearchView.swift */; };
+		492866031A4C72889F3F28A5 /* ActivityEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2AA43B75F148FBBD5C9091 /* ActivityEditorView.swift */; };
+		5F40C68579A898CFD935BAC0 /* DayEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C052246C81F97B97B14C82 /* DayEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +102,9 @@
 		66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabaseTests.swift; sourceTree = "<group>"; };
 		3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftModelTests.swift; sourceTree = "<group>"; };
 		00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewModelTests.swift; sourceTree = "<group>"; };
+		1001307DC22C70893D868F06 /* ExerciseSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSearchView.swift; sourceTree = "<group>"; };
+		8D2AA43B75F148FBBD5C9091 /* ActivityEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEditorView.swift; sourceTree = "<group>"; };
+		02C052246C81F97B97B14C82 /* DayEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +296,9 @@
 				EE3A3CF53B84B95CA4077EB5 /* ProgramDetailView.swift */,
 				9E9FF6E67B4050AAEB2B06E0 /* ProgramBuilderView.swift */,
 				E7564B5B9007EFAA3DE8BB1A /* NaturalLanguageInputView.swift */,
+				1001307DC22C70893D868F06 /* ExerciseSearchView.swift */,
+				8D2AA43B75F148FBBD5C9091 /* ActivityEditorView.swift */,
+				02C052246C81F97B97B14C82 /* DayEditorView.swift */,
 			);
 			name = Programs;
 			path = Programs;
@@ -456,6 +465,9 @@
 				EA08031315BA7170FC52E9A0 /* ProgramDetailView.swift in Sources */,
 				2D277825AD185F468555122C /* ProgramBuilderView.swift in Sources */,
 				11E8BDEF1CD7C545B4C2CB1A /* NaturalLanguageInputView.swift in Sources */,
+				E39AE002571621D426D25514 /* ExerciseSearchView.swift in Sources */,
+				492866031A4C72889F3F28A5 /* ActivityEditorView.swift in Sources */,
+				5F40C68579A898CFD935BAC0 /* DayEditorView.swift in Sources */,
 				53E976548F9D4B3AFD913493 /* FoundationModelsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
