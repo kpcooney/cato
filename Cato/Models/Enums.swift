@@ -104,3 +104,58 @@ enum SessionStatus: String, Codable {
     case completed
     case abandoned
 }
+
+// MARK: - Display Names
+
+extension DayOfWeek {
+    /// User-facing name for display in views and forms.
+    var displayName: String {
+        switch self {
+        case .monday: return "Monday"
+        case .tuesday: return "Tuesday"
+        case .wednesday: return "Wednesday"
+        case .thursday: return "Thursday"
+        case .friday: return "Friday"
+        case .saturday: return "Saturday"
+        case .sunday: return "Sunday"
+        }
+    }
+
+    /// Short abbreviation for compact UI.
+    var shortName: String {
+        switch self {
+        case .monday: return "Mon"
+        case .tuesday: return "Tue"
+        case .wednesday: return "Wed"
+        case .thursday: return "Thu"
+        case .friday: return "Fri"
+        case .saturday: return "Sat"
+        case .sunday: return "Sun"
+        }
+    }
+}
+
+extension DayType {
+    /// User-facing name for display in pickers and labels.
+    var displayName: String {
+        switch self {
+        case .training: return "Training"
+        case .rest: return "Rest"
+        case .activeRecovery: return "Active Recovery"
+        }
+    }
+}
+
+extension ProgramType {
+    /// User-facing name for display in pickers and labels.
+    var displayName: String {
+        rawValue.capitalized
+    }
+}
+
+extension ActivityType {
+    /// User-facing name for display in pickers and labels.
+    var displayName: String {
+        rawValue.capitalized
+    }
+}

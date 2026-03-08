@@ -38,6 +38,18 @@
 		/* Test target build files */
 		AA000001000000000000AA01 /* CatoPersonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000AA02 /* CatoPersonaTests.swift */; };
 		AA000003000000000000AA03 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000AA04 /* ModelTests.swift */; };
+		98219645F5900881FC9459F7 /* ExerciseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763D80725F523C78B7D23AE9 /* ExerciseDatabase.swift */; };
+		48E0141B2586535AC01864E5 /* DraftModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895279185512B4D8140C67F /* DraftModels.swift */; };
+		DF53CAD9DC5D6AD31ED6A800 /* ProgramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09938940AF01D3A6FEAF98F1 /* ProgramViewModel.swift */; };
+		9D490FA3E147CE5CBE8AFFA9 /* ProgramRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A9974B70452E24453ED0B /* ProgramRowView.swift */; };
+		EA08031315BA7170FC52E9A0 /* ProgramDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A3CF53B84B95CA4077EB5 /* ProgramDetailView.swift */; };
+		2D277825AD185F468555122C /* ProgramBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9FF6E67B4050AAEB2B06E0 /* ProgramBuilderView.swift */; };
+		11E8BDEF1CD7C545B4C2CB1A /* NaturalLanguageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7564B5B9007EFAA3DE8BB1A /* NaturalLanguageInputView.swift */; };
+		53E976548F9D4B3AFD913493 /* FoundationModelsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429FEEAEE890419E70F8F80E /* FoundationModelsService.swift */; };
+		F2E012EA6B31225544ED72CF /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = F890541CAEF4A98573540ACC /* exercises.json */; };
+		7C8EA023B93D904CDEA5CA9A /* ExerciseDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */; };
+		1C83E422C5F3660CA0B25E76 /* DraftModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */; };
+		DD700CE559029CB899B1BD06 /* ProgramViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +87,18 @@
 		AA000005000000000000AA05 /* CatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA000002000000000000AA02 /* CatoPersonaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatoPersonaTests.swift; sourceTree = "<group>"; };
 		AA000004000000000000AA04 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		763D80725F523C78B7D23AE9 /* ExerciseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabase.swift; sourceTree = "<group>"; };
+		A895279185512B4D8140C67F /* DraftModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftModels.swift; sourceTree = "<group>"; };
+		09938940AF01D3A6FEAF98F1 /* ProgramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewModel.swift; sourceTree = "<group>"; };
+		D92A9974B70452E24453ED0B /* ProgramRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRowView.swift; sourceTree = "<group>"; };
+		EE3A3CF53B84B95CA4077EB5 /* ProgramDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetailView.swift; sourceTree = "<group>"; };
+		9E9FF6E67B4050AAEB2B06E0 /* ProgramBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramBuilderView.swift; sourceTree = "<group>"; };
+		E7564B5B9007EFAA3DE8BB1A /* NaturalLanguageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalLanguageInputView.swift; sourceTree = "<group>"; };
+		429FEEAEE890419E70F8F80E /* FoundationModelsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelsService.swift; sourceTree = "<group>"; };
+		F890541CAEF4A98573540ACC /* exercises.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
+		66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabaseTests.swift; sourceTree = "<group>"; };
+		3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftModelTests.swift; sourceTree = "<group>"; };
+		00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +159,9 @@
 			children = (
 				AA000002000000000000AA02 /* CatoPersonaTests.swift */,
 				AA000004000000000000AA04 /* ModelTests.swift */,
+				66B4E4109084313D03B96DCA /* ExerciseDatabaseTests.swift */,
+				3B4B202E97E04BF9134AB0F4 /* DraftModelTests.swift */,
+				00DBE7148767FFE9BFAA000D /* ProgramViewModelTests.swift */,
 			);
 			name = CatoTests;
 			path = CatoTests;
@@ -158,6 +185,7 @@
 				71AFC3DF5A224763A8880D1B /* CompletedSet.swift */,
 				815626B008DE43DF8341B77F /* CompletedTarget.swift */,
 				92B820D26CEA4E7380DB27C7 /* Enums.swift */,
+				A895279185512B4D8140C67F /* DraftModels.swift */,
 				30458159836A4154BCE93353 /* ProgramActivity.swift */,
 				2604CAC3FBB34BFABE018F1D /* ProgramDay.swift */,
 				3B70E0065AA14215874A180D /* ProgramWeek.swift */,
@@ -183,7 +211,8 @@
 		5E095E42131F4C6C828BD249 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-			);
+							F890541CAEF4A98573540ACC /* exercises.json */,
+);
 			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
@@ -194,6 +223,7 @@
 				B9FA8614F43F4CC198F87C27 /* AuthenticationService.swift */,
 				56EB2F72299B468CB6A12DE6 /* CatoSpeechService.swift */,
 				84AA483B9B2048A2A2F50D07 /* ClaudeAPIService.swift */,
+				429FEEAEE890419E70F8F80E /* FoundationModelsService.swift */,
 				4AEFDD50F06642AD8FB17B37 /* CloudKitService.swift */,
 				3B37EEA062A945E58954D5C5 /* HealthKitService.swift */,
 				9CB8D26DDD03417D99A7BCCB /* ProgressionService.swift */,
@@ -206,7 +236,8 @@
 		E930F0D395654551A0CEA7F1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				8F9CE31D70FB44E99D869C39 /* Extensions */,
+								763D80725F523C78B7D23AE9 /* ExerciseDatabase.swift */,
+8F9CE31D70FB44E99D869C39 /* Extensions */,
 			);
 			name = Utilities;
 			path = Utilities;
@@ -223,7 +254,8 @@
 		1D35188176934896BA2CC7EB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-			);
+							09938940AF01D3A6FEAF98F1 /* ProgramViewModel.swift */,
+);
 			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -254,6 +286,10 @@
 			isa = PBXGroup;
 			children = (
 				05E7BB47A36F487D86995C5F /* ProgramListView.swift */,
+				D92A9974B70452E24453ED0B /* ProgramRowView.swift */,
+				EE3A3CF53B84B95CA4077EB5 /* ProgramDetailView.swift */,
+				9E9FF6E67B4050AAEB2B06E0 /* ProgramBuilderView.swift */,
+				E7564B5B9007EFAA3DE8BB1A /* NaturalLanguageInputView.swift */,
 			);
 			name = Programs;
 			path = Programs;
@@ -367,7 +403,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
+							F2E012EA6B31225544ED72CF /* exercises.json in Resources */,
+);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AA000011000000000000AA11 /* Resources (Tests) */ = {
@@ -412,6 +449,14 @@
 				E127C6A814C64247AC32E7E4 /* HealthKitService.swift in Sources */,
 				76CE5C5335714B57808B577A /* ProgressionService.swift in Sources */,
 				15FC7B0BF91C4A369A48F700 /* VoiceRecognitionService.swift in Sources */,
+				98219645F5900881FC9459F7 /* ExerciseDatabase.swift in Sources */,
+				48E0141B2586535AC01864E5 /* DraftModels.swift in Sources */,
+				DF53CAD9DC5D6AD31ED6A800 /* ProgramViewModel.swift in Sources */,
+				9D490FA3E147CE5CBE8AFFA9 /* ProgramRowView.swift in Sources */,
+				EA08031315BA7170FC52E9A0 /* ProgramDetailView.swift in Sources */,
+				2D277825AD185F468555122C /* ProgramBuilderView.swift in Sources */,
+				11E8BDEF1CD7C545B4C2CB1A /* NaturalLanguageInputView.swift in Sources */,
+				53E976548F9D4B3AFD913493 /* FoundationModelsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +466,9 @@
 			files = (
 				AA000001000000000000AA01 /* CatoPersonaTests.swift in Sources */,
 				AA000003000000000000AA03 /* ModelTests.swift in Sources */,
+				7C8EA023B93D904CDEA5CA9A /* ExerciseDatabaseTests.swift in Sources */,
+				1C83E422C5F3660CA0B25E76 /* DraftModelTests.swift in Sources */,
+				DD700CE559029CB899B1BD06 /* ProgramViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
