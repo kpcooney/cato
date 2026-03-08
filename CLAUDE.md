@@ -36,14 +36,16 @@ Cato is a native iOS personal trainer app. Users create workout programs using n
 
 ```bash
 # Build
-xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 15 Pro' build
+xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.2' build
 
 # Test — run this after every non-trivial change
-xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.2' test
+xcodebuild -scheme Cato -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.2' test
 
 # Clean
 xcodebuild -scheme Cato clean
 ```
+
+> **Environment:** Xcode 26.3 (Build 17C529). Target simulator: iPhone 16 Pro / iOS 18.2. iOS 17.2 simulators still available if needed for regression testing.
 
 ---
 
