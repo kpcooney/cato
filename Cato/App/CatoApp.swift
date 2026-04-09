@@ -57,13 +57,8 @@ struct CatoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            if authService.isAuthenticated {
-                ContentView()
-                    .environment(authService)
-            } else {
-                SignInView()
-                    .environment(authService)
-            }
+            ContentView()
+                .environment(authService)
         }
         .modelContainer(sharedModelContainer)
     }

@@ -79,10 +79,28 @@ struct CatoPersona {
         "Rest day. Recover up."
     }
 
+    // MARK: - Program Management
+
+    static func programCreated(name: String) -> String {
+        "\(name) saved. Set it active when you're ready."
+    }
+
+    static func programActivated(name: String) -> String {
+        "\(name) is now active. Let's get after it."
+    }
+
+    static func noProgramActive() -> String {
+        "No program active. Set one up in the Programs tab."
+    }
+
     // MARK: - Errors
 
     static func serverError() -> String {
         "Can't reach the server. Try again or build it manually."
+    }
+
+    static func programParseError() -> String {
+        "Couldn't parse that. Try being more specific, or build it manually."
     }
 
     // MARK: - Confirmations
